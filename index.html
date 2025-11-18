@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jajanan Jatim</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="nav-left">
+            <h1>Jajanan Jatim</h1>
+        </div>
+
+        <div class="nav-right">
+            <a href="index.html">Beranda</a>
+
+            <div class="dropdown">
+                <button class="dropbtn">Daerah ▼</button>
+                <div class="dropdown-content">
+                    <a href="#" onclick="tampilkanJajanan('Surabaya')">Surabaya</a>
+                    <a href="#" onclick="tampilkanJajanan('Madiun')">Madiun</a>
+                    <a href="#" onclick="tampilkanJajanan('Kediri')">Kediri</a>
+                    <a href="#" onclick="tampilkanJajanan('Sidoarjo')">Sidoarjo</a>
+                </div>
+            </div>
+
+            <a href="">Tentang</a>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-img">
+            <img src="img/rujak-cingur.jpg" alt="Makanan Jawa Timur">
+        </div>
+        <div class="hero-text">
+            <h2>Selamat Datang di Jajanan Jatim</h2>
+            <p>
+                Temukan berbagai jajanan tradisional khas Jawa Timur lengkap dengan asal daerah,
+                resep, dan cara membuatnya.
+            </p>
+        </div>      
+    </section>
+
+    <!-- SECTION JAJANAN -->
+    <section class="daerah-section">
+        <h3 id="judul-daerah">Pilih daerah pada menu di atas</h3>
+
+        <div class="scroll-container">
+            <button class="scroll-btn " id="left">←</button>
+
+            <div class="cards" id="cardScroll"></div>
+
+            <button class="scroll-btn " id="right">→</button>
+        </div>
+    </section>
+
+    <!-- MODAL POP UP -->
+<div id="modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-hidden="true">
+  <div class="modal-content" role="document">
+    <button class="close" aria-label="Tutup modal">&times;</button>
+    <img id="modal-img" class="modal-img" alt="">
+    <h2 id="modal-title"></h2>
+    <p id="modal-desc"></p>
+    <h3>Resep:</h3>
+    <ul id="modal-resep"></ul>
+    <h3>Cara Membuat:</h3>
+    <ol id="modal-cara"></ol>
+    <p id="modal-daerah" class="modal-daerah"></p>
+  </div>
+</div>
+
+
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
