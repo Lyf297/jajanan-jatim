@@ -105,7 +105,44 @@ function tampilkanJajanan(daerah) {
     container.appendChild(card);
   });
 }
+// Fungsi ambil 7 jajanan random
+function getRandomJajanan(limit = 7) {
+  const shuffled = [...jajanan].sort(() => Math.random() - 0.5);
+  return shuffled.slice(0, limit);
+}
 
+// Tampilkan 7 random saat halaman dibuka
+document.addEventListener("DOMContentLoaded", () => {
+  const randomData = getRandomJajanan(7);
+
+  judul.textContent = "Rekomendasi Jajanan";
+
+  container.innerHTML = "";
+
+  randomData.forEach(item => {
+    const card = document.createElement("div");
+    card.className = "card";
+    card.tabIndex = 0;
+
+    card.innerHTML = `
+        <img src="${item.gambar}" alt="${item.nama}"
+             loading="lazy"
+             onerror="this.src='img/placeholder.jpg'; this.alt='Gambar tidak tersedia'">
+        <p>${item.nama}</p>
+    `;
+
+    card.addEventListener("click", () => bukaModal(item));
+
+    card.addEventListener("keydown", (e) => {
+      if (e.key === "Enter" || e.key === " ") {
+        e.preventDefault();
+        bukaModal(item);
+      }
+    });
+
+    container.appendChild(card);
+  });
+});
 // Scroll kiri-kanan
 btnLeft.addEventListener("click", () => {
   container.scrollBy({ left: -250, behavior: "smooth" });
