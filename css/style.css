@@ -354,3 +354,16 @@
     margin-left: 100px;
   }
 }
+
+@media (max-widtg: 428px){
+    .nav-left h1 { font-size: 15px; }
+
+  .nav-right a, .dropbtn { font-size: 10px; }
+
+}
+
+@media (max-widtg: 1024px){
+  .hero-img {
+    margin-left: 50px;
+  }
+}
