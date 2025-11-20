@@ -493,24 +493,7 @@ const jajanan = [
     ]
   },
   // 27. PAMEKASAN (Kabupaten)
-  {
-    nama: "Apen-Apen",
-    daerah: "Pamekasan",
-    gambar: "img/apen-apen.jpg",
-    deskripsi: "Kue basah dari tepung beras, gula, dan santan yang dimasak, teksturnya kenyal mirip dodol, khas Madura.",
-    resep: [
-      "200g tepung beras",
-      "150g gula merah",
-      "400ml santan kental",
-      "Daun pandan"
-    ],
-    cara: [
-      "Campur tepung beras dengan sedikit santan.",
-      "Masak sisa santan, gula merah, dan pandan hingga mendidih.",
-      "Tuang larutan tepung, aduk hingga kental dan tanak.",
-      "Cetak di loyang dan dinginkan sebelum dipotong."
-    ]
-  },
+
   // 28. PASURUAN (Kabupaten)
   {
     nama: "Apel Malang (Camilan Olahan)",
@@ -619,24 +602,7 @@ const jajanan = [
     ]
   },
   // 34. SUMENEP (Kabupaten)
-  {
-    nama: "Manisan Siwalan",
-    daerah: "Sumenep",
-    gambar: "img/manisan-siwalan.jpg",
-    deskripsi: "Manisan segar dari buah lontar (siwalan) yang direndam dalam sirup manis, cocok disajikan dingin.",
-    resep: [
-      "500g buah siwalan/lontar",
-      "200g gula pasir",
-      "Air",
-      "Daun pandan (optional)"
-    ],
-    cara: [
-      "Kupas dan cuci bersih buah siwalan.",
-      "Masak air, gula, dan pandan hingga mendidih dan gula larut.",
-      "Masukkan buah siwalan ke dalam larutan gula, diamkan hingga meresap.",
-      "Dinginkan dan sajikan."
-    ]
-  },
+
   // 35. TRENGGALEK (Kabupaten)
   {
     nama: "Sale Pisang Trenggalek",
@@ -705,7 +671,7 @@ const jajanan = [
       "Dinginkan dan kemas."
     ]
   },
-  // 39. BARU: KOTA SURABAYA
+  // 39. KOTA SURABAYA
   {
     nama: "Klepon",
     daerah: "Surabaya",
@@ -723,7 +689,7 @@ const jajanan = [
       "Rebus hingga mengapung. Angkat dan gulingkan di kelapa parut."
     ]
   },
-  // 40. BARU: KOTA MALANG
+  // 40. KOTA MALANG
   {
     nama: "Mendut",
     daerah: "Malang",
@@ -741,7 +707,7 @@ const jajanan = [
       "Susun di mangkuk kecil dari daun pisang, siram dengan santan kental, lalu kukus."
     ]
   },
-  // 41. BARU: KAB. JEMBER
+  // 41. KAB. JEMBER
   {
     nama: "Tape Bakar",
     daerah: "Jember",
@@ -758,7 +724,7 @@ const jajanan = [
       "Sajikan hangat dengan topping sesuai selera."
     ]
   },
-  // 42. BARU: KAB. MADIUN
+  // 42. KAB. MADIUN
   {
     nama: "Jenang Dodol",
     daerah: "Madiun Kab",
@@ -774,24 +740,7 @@ const jajanan = [
       "Campur semua bahan, masak di atas api kecil sambil terus diaduk (kurang lebih 4-8 jam) hingga mengental sempurna dan berwarna gelap."
     ]
   },
-  // 43. BARU: KAB. SIDOARJO
-  {
-    nama: "Otel-Otel Sidoarjo",
-    daerah: "Sidoarjo",
-    gambar: "img/otel-otel.jpg",
-    deskripsi: "Camilan gorengan berupa adonan tepung dan sayuran yang disajikan dengan bumbu petis khas Sidoarjo (mirip Ote-ote atau Bakwan).",
-    resep: [
-      "Tepung terigu",
-      "Sayuran (taoge, kol)",
-      "Udang kecil",
-      "Bumbu petis (petis udang, bawang putih, cabai)"
-    ],
-    cara: [
-      "Campur tepung, sayuran, dan udang, goreng hingga renyah.",
-      "Sajikan dengan sambal petis udang yang gurih."
-    ]
-  },
-  // 44. BARU: KAB. GRESIK
+  // 44. KAB. GRESIK
   {
     nama: "Jubung",
     daerah: "Gresik",
@@ -809,7 +758,7 @@ const jajanan = [
       "Masukkan ke dalam wadah daun lontar kecil dan taburi wijen."
     ]
   },
-  // 45. BARU: KAB. TULUNGAGUNG
+  // 45. KAB. TULUNGAGUNG
   {
     nama: "Kue Serabi Solo (Modifikasi)",
     daerah: "Tulungagung",
@@ -827,7 +776,7 @@ const jajanan = [
       "Sajikan dengan kuah kinca hangat."
     ]
   },
-  // 46. BARU: KAB. NGANJUK
+  // 46. KAB. NGANJUK
   {
     nama: "Nagasari",
     daerah: "Nganjuk",
@@ -845,7 +794,7 @@ const jajanan = [
       "Kukus hingga matang."
     ]
   },
-  // 47. BARU: KAB. BLITAR
+  // 47. KAB. BLITAR
   {
     nama: "Cenil",
     daerah: "Blitar Kab",
@@ -863,7 +812,7 @@ const jajanan = [
       "Gulingkan di kelapa parut dan siram kinca gula merah."
     ]
   },
-  // 48. BARU: KAB. PASURUAN
+  // 48. KAB. PASURUAN
   {
     nama: "Grubi (Bola Ubi)",
     daerah: "Pasuruan Kab",
@@ -881,7 +830,7 @@ const jajanan = [
       "Masukkan ubi goreng, aduk cepat hingga rata dan membentuk bola/gumpalan kecil."
     ]
   },
-  // 49. BARU: KAB. PACITAN
+  // 49. KAB. PACITAN
   {
     nama: "Tiwul Instan",
     daerah: "Pacitan",
@@ -896,24 +845,6 @@ const jajanan = [
       "Seduh tiwul instan dengan air panas, diamkan hingga mengembang.",
       "Kukus hingga matang.",
       "Sajikan hangat dengan kelapa parut dan sedikit gula/garam."
-    ]
-  },
-  // 50. BARU: KAB. TUBAN
-  {
-    nama: "Kue Gethuk Lindri",
-    daerah: "Tuban",
-    gambar: "img/gethuk-lindri.jpg",
-    deskripsi: "Olahan getuk yang digiling memanjang (seperti mie) dan diberi pewarna cerah, disajikan dengan parutan kelapa.",
-    resep: [
-      "Singkong kukus",
-      "Gula pasir",
-      "Pewarna makanan",
-      "Parutan kelapa kukus"
-    ],
-    cara: [
-      "Haluskan singkong dengan gula dan pewarna.",
-      "Giling adonan menggunakan alat penggiling/cetakan khusus hingga berbentuk seperti mie.",
-      "Sajikan dengan taburan kelapa parut."
     ]
   }
 ];
